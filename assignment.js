@@ -26,9 +26,9 @@ function brickCalculator(brick) {
     if (brick<0) {
         console.log("Brick can't be Negative")
     }
-    else if (brick<10) {
+    else if (brick <= 10) {
         var Brick = brick*1000*15;
-    } else if ( brick > 10 , brick <20){
+    } else if ( brick >= 11 && brick <= 20){
         var brickforbuilding = 1000*10*15;
         var brickkk = brick - 10;
         var brickforBuilding = brickkk*1000*12;
